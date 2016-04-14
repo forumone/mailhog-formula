@@ -1,7 +1,5 @@
 # Mailhog precompiled binary
 
-https://github.com/mailhog/MailHog/releases/download/v0.2.0/MailHog_linux_amd64
-
 download-mailhog-binary:
   file.managed:
     - name: /usr/local/bin/MailHog
