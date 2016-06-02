@@ -23,4 +23,5 @@ mailhog-init:
 
 mailhog-service:
   service.running:
+    - name: mailhog
     - enable: True
