@@ -11,8 +11,8 @@ download-mailhog-binary:
     - name: /usr/local/bin/MailHog
     - user: root
     - mode: 755
-    - source: https://github.com/mailhog/MailHog/releases/download/v0.2.0/MailHog_linux_amd64
-    - source_hash: md5=3e6f167e5c398d0220dd001f0aad7a85
+    - source: https://github.com/mailhog/MailHog/releases/download/v1.0.0/MailHog_linux_amd64
+    - source_hash: md5=3b758c81bfe2c9110911511daca1a7bc
     - unless: test -f /usr/local/bin/MailHog
 
 mailhog-init:
